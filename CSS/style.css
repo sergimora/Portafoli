@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.image {
+    height: 550px;
+    width: 100%;
+    background: #55e6c5;
+    z-index: 1;
+    }
+
+.image1 {
+    height: 400px;
+    width: 100%;
+    background: #55e6c5;
+    z-index: 1;
+    }
+
+.content {
+    height: 120px;
+    width:100%;
+    background: white;
+    z-index: 2;
+}
+.content h1 {
+    font-size: 40px;
+    color: #464646;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 30px 60px;
+}
+.content p {
+    font-size:20px;
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 30px 60px;
+}
+#wall_1 {
+    background: url(../img/swirl_pattern.png) repeat;
+    background-attachment: fixed;
+}
+#wall_2 {
+    background: url(../img/unnamed.jpg) repeat;
+    background-attachment: fixed;
+}
+#wall_3 {
+    background: url(../img/8c02ecf410e48836c3ac04c1cd1738bf.jpg) repeat;
+    background-attachment: fixed;
+}
+
+#wall_4 {
+    background: url(../img/Modelo_3D_de_la_Estatua_de_Apolo_3.jpg);
+    background-attachment: fixed;
+}
+
+#wall_5 {
+    background: url(../img/tiger_3d_rigging_by_k3nta-d368zod.jpg);
+    background-attachment: fixed;
+}
+
+
+
+#nav {
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(255,255,255,1);
+    z-index: 100;
+    -webkit-box-shadow:0px 0px 20px rgba(44,44,44,.3);
+}
+#nav #logo {
+    height: 80px;
+    width: 400px;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    margin: auto 00px 0px 0px 10px;
+}
+
+#nav #logo img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+#content_1 {position: relative;}
+
+h1::first-letter {
+    font-size: 60px;
+    font-weight: 600;
+    color:#3cb0f8;
+}
+
+
+/** overlay **/
+
+
+.container {
+    position: relative;
+    
+}
+
+.container:hover .image1 {
+  opacity: 0.3;
+     transition: 0.8s ease;
+}
+
+.container:hover .text {
+    opacity: 1;
+    transition: 2s ease;
+    
+   
+}
+
+.text {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+  background-color:green;
+  font-size: 16px;
+    padding: 45px 120px;
+    opacity: 0;
+}
+
+.ani{
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+    font-size: 30px;
+}
+
+
+/** card **/
+
+.card-container {
+    display: inline-block;
+  cursor: pointer;
+  height: 200px;
+    width: 100%;
+  perspective: 600;
+  position: absolute;
+    top: 160px;
+  
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.card .back {
+  background: #eaeaed;
+  color: black;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-container2 {
+    display: inline-block;
+  cursor: pointer;
+  height: 200px;
+    width: 100%;
+  perspective: 600;
+  position: absolute;
+    top: 360px;
+}
+    .card-container3 {
+    display: inline-block;
+  cursor: pointer;
+  height: 200px;
+    width: 100%;
+  perspective: 600;
+  position: absolute;
+    top: 560px;
+}
+    .card-container4 {
+    display: inline-block;
+  cursor: pointer;
+  height: 200px;
+    width: 100%;
+  perspective: 600;
+  position: absolute;
+    top: 760px;
+        }
+       img.af{
+            height: 200px;
+            width: 100%;
+        }
+div.an3f{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 970px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+div.an3fp{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 850px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+div.t1{
+     position: absolute;
+    top: 220px;
+    left: 5%;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+div.fonst{
+    position: absolute;
+    top: 150px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5px;
+    margin-top: 50px;
+    background-color: black;
+    max-height: 650px;
+    min-height: 50px;
+}
+
+#vidc{
+    width: 100%;
+    max-height: 650px;
+    min-height: 50px;
+}
+
+.mods{
+    display: inline-block;
+    position: absolute;
+    top: 180px;
+    margin-left: 20px;
+
+    
+}
+
+.mods2{
+    display: inline-block;
+    top: 180px;
+    position: absolute;
+    left: 710px;
+    
+}
+
+.mods3{
+    display: inline-block;
+    position: absolute;
+    top: 690px;
+    margin-left: 20px;
+
+    
+}
+
+.mods4{
+    display: inline-block;
+    position: absolute;
+    top: 690px;
+    left: 710px;
+
+    
+}
+
+.mods5{
+    display: inline-block;
+    position: absolute;
+    top: 1200px;
+    margin-left: 20px;
+
+    
+}
+
+.mods6{
+    display: inline-block;
+    position: absolute;
+    top: 1200px;
+    left: 710px;
+
+    
+}
+
+.mods7{
+    display: inline-block;
+    position: absolute;
+    top: 1710px;
+    margin-left: 20px;
+
+    
+}
+
+.mods8{
+    display: inline-block;
+    position: absolute;
+    top: 1710px;
+    left: 710px;
+
+    
+}
+
+.mods9{
+    display: inline-block;
+    position: absolute;
+    top: 2220px;
+    margin-left: 20px;
+
+    
+}
+
+.mods10{
+    display: inline-block;
+    position: absolute;
+    top: 2220px;
+    left: 710px;
+
+    
+}
+
+div.an3fm{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 2720px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+div.rig1{
+    position: absolute;
+    top: 200px;
+    margin-left: 20px;
+    
+}
+
+div.rig2{
+    position: absolute;
+    top: 950px;
+    margin-left: 20px;
+    
+}
+
+div.rc{
+    position: absolute;
+    top: 170px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 20px;
+    
+}
+
+
+div.rp{
+     position: absolute;
+    top: 920px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 20px;
+    
+    
+}
+
+div.an3fr{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 1680px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
